@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 50px;
+}
+.logo img {
+  height: 50px;
+}
+.nav-link {
+  color: white;
+}
+.hero {
+  min-height: 600px;
+}
+.burgerImage {
+  padding: 0;
+}
+.burgerImage img {
+  height: 400px;
+}
+.btn {
+  border-radius: 10px;
+}
+.f-btn:hover {
+  color: #ffc107;
+  background-color: #212529;
+}
+.burgerCards {
+  margin-top: 30px;
+}
+.burgerCard {
+  background-color: #212529;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.burgerCard:hover {
+  transform: translateY(-5px);
+}
+.burgerCard img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.menu {
+  background-color: #f8f1e7;
+  color: #212529;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.menu-card {
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 34px;
+}
+
+.menu-card-body {
+  padding: 20px;
+}
+
+.menu-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #b8860b;
+}
+
+.about {
+  background-color: #f8f1e7;
+  color: #212529;
+}
+
+.about-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.8;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about-img {
+    max-height: 300px;
+  }
+}
+#shop-section {
+  margin-bottom: 10px;
+}
+.shopCard {
+  height: 100%;
+  background-color: #212529;
+  border: solid #b8860b 1px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.shopCard:hover {
+  transform: translateY(-5px);
+}
+
+.shopCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 34px;
+}
+.shopCard-body button {
+  font-size: 0.7rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #ffc107;
+}
+
+/* footer */
+
+.foot-logo {
+  height: 50px;
+  margin-top: 10px;
+}
+form {
+  margin-top: 10px;
+}
+.email-input {
+  background-color: transparent;
+  border: 1px solid #d4af37;
+  border-radius: 10px;
+  color: white;
+}
+.email-input::placeholder {
+  color: #d4af37;
+}
+.email-input:focus {
+  background-color: transparent;
+  border-color: #d4af37;
+  box-shadow: none;
+  outline: none;
+}
+.button-b {
+  width: 100%;
+  margin-bottom: 10px;
+}
